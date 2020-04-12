@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+p,h1,h2,h3,h4,h5,h6{
+  margin:0;
+}
+
+img{
+  vertical-align:bottom;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  font-family: "SF Pro JP","SF Pro Text","SF Pro Icons","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3",メイリオ,Meiryo,"ＭＳ Ｐゴシック","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333;
+}
+
+header{
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition-duration: .5s;
+  padding-top: 90px;
+  margin-top: -90px;
+}
+
+a{
+  color:#3583aa;
+  text-decoration:none;
+}
+
+a:visited{
+  color:#788d98;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+.logo{
+  float:left;
+  margin-top:50px;
+}
+
+.global-nav{
+  /* float:right; */
+  margin-top:60px;
+  display: flex;
+}
+
+.global-nav li{
+  /* float:left; */
+  margin:0 20px;
+  font-size:20px;
+  list-style:none;
+  font-family:'Bitter', serif;
+}
+
+/* .global-nav li a{
+  color:#ffffff;
+} */
+
+.global-nav li a:hover{
+  border-bottom:2px solid #ffffff;
+  padding-bottom:3px;
+  text-decoration: none;
+}
+
+.header_container{
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+#wrap{
+  clear:both;
+  background-color:#ffffff;
+  margin-top:220px;
+  padding:35px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content{
+  width:960px;
+  margin:0 auto;
+}
+
+.about,.image,.message,.skills,.past,.works,.contact{
+  margin: 0 20px 20px;
+  padding: 10px;
+  background: #efefef;
+}
+
+.image{
+
+}
+
+.message{
+
+}
+
+.about{
+
+}
+
+.skills{
+
+}
+
+.past{
+
+}
+
+.works{
+
+}
+
+.contact{
+
+}
